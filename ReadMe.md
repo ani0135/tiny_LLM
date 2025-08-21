@@ -35,3 +35,42 @@ To get started with this project, you'll need to have the following installed:
 2. Install the required Python packages:
     ``` bash
     pip install -r requirements.txt
+
+## Training the Model
+
+To train the language model, use the train.py script. This script will load the Shakespeare dataset, tokenize it, and train a character-level model.
+
+### Running the Training
+
+1. Make sure the data is in the data/ folder. It should include the text data of Shakespeare's works.
+
+2. Run the training script:
+    ``` bash
+    python train.py
+
+This will start the training process. Make sure you have enough resources (like GPU) for optimal training speed.
+
+## Configuring Hyperparameters
+
+The training process and model architecture can be customized by editing the `config.py` file. This file contains various hyperparameters for the model, such as:
+
+- **Batch Size**: Number of samples per batch.
+- **Learning Rate**: The learning rate for the optimizer.
+- **Epochs**: Number of training epochs.
+- **Model Architecture**: Adjust the number of layers, hidden units, etc.
+
+Modify the `config.py` as per your requirements to fine-tune the model's performance.
+
+---
+
+## Inference
+
+Once the model is trained, you can use the `inference.py` script to generate text.
+
+### Running Inference
+
+To generate text using the trained model, use:
+
+```bash
+
+python inference.py
