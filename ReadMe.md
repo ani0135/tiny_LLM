@@ -8,8 +8,6 @@ Welcome to the Tiny LLM project! This repository provides a simple yet powerful 
 - [Training the Model](#training-the-model)
 - [Configuring Hyperparameters](#configuring-hyperparameters)
 - [Inference](#inference)
-- [Troubleshooting](#troubleshooting)
-- [License](#license)
 
 ## Overview
 
